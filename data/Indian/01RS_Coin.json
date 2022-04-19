@@ -1,0 +1,37 @@
+[
+    {
+        "CoinNo" : 1,
+        "CoinName" : "Inter-Parliamentary Union Conference",
+        "CoinID" : "INR-01R-AA1993",
+        "CoinCond" : "Good",
+        "CoinCountryOfOrigin" : "India",
+        "CoinDate" : "1993",
+        "CoinQuantity" : "1",
+        "CoinDetails" : "Commemerative coin for 89th Inter-Parliamentary Union Conference.",
+        "CoinDescription" : "It is a circulating commemorative coin for 89th Inter-Parliamentary Union Conference. It is made up of Copper-Nickel composition material. It weights 6.10g with 26mm diameter and 1.5mm thickness. On heads, it features Ashoka Stambh with denomination written below it. On tails side we see image of Parliament of Republic Of India."
+    },
+
+    {
+        "CoinNo" : 2,
+        "CoinName" : "Grain sprigs flank denomination(1982-1991)",
+        "CoinID" : "INR-01R-AA1983",
+        "CoinCond" : "Bad",
+        "CoinCountryOfOrigin" : "India",
+        "CoinDate" : "1983",
+        "CoinQuantity" : "1",
+        "CoinDetails" : "Normal circulative coin with grain crop images.",
+        "CoinDescription" : "It is a circulating coin made with grain sprigs flank denomination style(1982-1991). It is made up of Copper-Nickel composition material. It weights 6g with 26mm diameter and 1.74mm thickness. On heads, it features Ashoka Stambh with India written in english on right and in hindi on its left. On tails side we see denomination written at center with grain crop on its both sides."
+    },
+
+    {
+        "CoinNo" : 3,
+        "CoinName" : "RBI Platinum Jublee",
+        "CoinID" : "INR-01R-AC2010",
+        "CoinCond" : "Very Good",
+        "CoinCountryOfOrigin" : "India",
+        "CoinDate" : "2010",
+        "CoinQuantity" : "1",
+        "CoinDetails" : "Commemerative coin for Platinum Jublee of Reserve Bank Of India.",
+        "CoinDescription" : "It is a circulating commemorative coin for 75th anniversary of the Reserve Bank of India. It is made up of stainless steel. It weights 4.95g with 24.8mm diameter and 1.55mm thickness. On heads, it features Ashoka Stambh with denomination written below it. On tails side we see image of Bengal Tiger walking left beneath palm tree, which is the logo Reserve Bank of India."
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "CoinNo" : 1,
+        "CoinName" : "50 Paise (1984-1990)",
+        "CoinID" : "INR-50P-AA1985",
+        "CoinCond" : "Average",
+        "CoinCountryOfOrigin" : "India",
+        "CoinDate" : "1985",
+        "CoinQuantity" : "1",
+        "CoinDetails" : "Standard Circulation 50 Paise Coin (1984-1990).",
+        "CoinDescription" : "It is a standard circulation coin for 50 Paise denomination. It was minted during the period of (1984-1990). It is made up of Copper-Nickel composition material. It weights 5.09g with 24mm diameter and 1.5mm thickness. On heads, it features Ashoka Stambh at centre with 'India' written around it in English and Hindi. On tails side we see denomination written at centre with 'Paise' written around it and date of minting written below it."
+    },
+
+    {
+        "CoinNo" : 2,
+        "CoinName" : "50 Paise (2011-2016)",
+        "CoinID" : "INR-50P-AB2011",
+        "CoinCond" : "Very Good",
+        "CoinCountryOfOrigin" : "India",
+        "CoinDate" : "2011",
+        "CoinQuantity" : "1",
+        "CoinDetails" : "Standard Circulation 50 Paise Coin (2011-2016).",
+        "CoinDescription" : "It is a standard circulation coin for 50 Paise denomination. It was minted during the period of (2011-2016). It is made up of Stainless-Steel. It weights 2.9g with 19mm diameter and 1.5mm thickness. On heads, it features Ashoka Stambh at centre with 'India' written around it in English and Hindi. On tails side we see denomination written at centre with 'Paise' written below it. The denomination is flanked by Lotus flowers.The date of minting written at the very bottom of the coin."
+    },
+
+    {
+        "CoinNo" : 3,
+        "CoinName" : "50 Paise (1988-2007)",
+        "CoinID" : "INR-50P-AC2001",
+        "CoinCond" : "Average",
+        "CoinCountryOfOrigin" : "India",
+        "CoinDate" : "2001",
+        "CoinQuantity" : "1",
+        "CoinDetails" : "Standard Circulation 50 Paise Coin (1988-2007).",
+        "CoinDescription" : "It is a standard circulation coin for 50 Paise denomination. It was minted during the period of (1988-2007). It is made up of Stainless-Steel. It weights 3.79g with 22mm diameter and 1.45mm thickness. On heads, it features Ashoka Stambh at top. Also the denomination is written at the centre with 'India Paise' written around it in English and Hindi. On tails side we see image of map in background with circular Indian Parliament house on top of it. Date of minting is written at the very bottom of the coin."
+    }
+]

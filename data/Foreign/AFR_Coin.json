@@ -1,0 +1,13 @@
+[
+    {
+        "CoinNo" : 1,
+        "CoinName" : "10 Francs",
+        "CoinID" : "AFR-AA1979",
+        "CoinCond" : "Good",
+        "CoinCountryOfOrigin" : "French West Africa",
+        "CoinDate" : "1979",
+        "CoinQuantity" : "1",
+        "CoinDetails" : "It is a French West African Currency.",
+        "CoinDescription" : "It is a circulation coin used in west african countries which were part of Frech colonies. It is made up of Copper-Aluminum composition material. It weights 4g with 23.5mm diameter and 1.2mm thickness."
+    }
+]

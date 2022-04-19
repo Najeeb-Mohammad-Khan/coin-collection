@@ -1,0 +1,86 @@
+[
+    {
+        "CoinNo" : 1,
+        "CoinName" : "1 Paisa (1965-1981)",
+        "CoinID" : "INR-L25-AA1965",
+        "CoinCond" : "Very Good",
+        "CoinCountryOfOrigin" : "India",
+        "CoinDate" : "1965",
+        "CoinQuantity" : "1",
+        "CoinDetails" : "Standard Circulation 1 Paisa Coin (1965-1981).",
+        "CoinDescription" : "It is a standard circulation coin for 1 Paisa denomination. It was minted during the period of (1965-1981). It is made up of Aluminium. It weights 0.75g with 17mm diameter and 1.72mm thickness. On heads, it features Ashoka Stambh at centre with 'India' written around it in English and Hindi. On tails side we see denomination written at centre with 'Paise' written around it in English and Hindi. It also have date of minting below the denomination."
+    },
+
+    {
+        "CoinNo" : 2,
+        "CoinName" : "2 Paisa (1965-1981)",
+        "CoinID" : "INR-L25-AB1972",
+        "CoinCond" : "Good",
+        "CoinCountryOfOrigin" : "India",
+        "CoinDate" : "1972",
+        "CoinQuantity" : "1",
+        "CoinDetails" : "Standard Circulation 2 Paisa Coin (1965-1981).",
+        "CoinDescription" : "It is a standard circulation coin for 2 Paisa denomination. It was minted during the period of (1965-1981). It is made up of Aluminium. It weights 1g with 20mm diameter and 1.58mm thickness. On heads, it features Ashoka Stambh at centre with 'India' written around it in English and Hindi. On tails side we see denomination written at centre with 'Paise' written around it in English and Hindi. It also have date of minting below the denomination."
+    },
+
+    {
+        "CoinNo" : 3,
+        "CoinName" : "3 Paisa (1964-1971)",
+        "CoinID" : "INR-L25-AC1965",
+        "CoinCond" : "Very Bad",
+        "CoinCountryOfOrigin" : "India",
+        "CoinDate" : "1965",
+        "CoinQuantity" : "1",
+        "CoinDetails" : "Standard Circulation 3 Paisa Coin (1964-1971).",
+        "CoinDescription" : "It is a standard circulation coin for 3 Paisa denomination. It was minted during the period of (1964-1971). It is made up of Aluminium. It weights 1.2g with 21mm diameter and 2mm thickness. On heads, it features Ashoka Stambh at centre with 'India' written around it in English and Hindi. On tails side we see denomination written at centre with 'Teen Paise' written above it in Hindi. It also have lotus flowers beside the denomination and date of minting below it."
+    },
+
+    {
+        "CoinNo" : 4,
+        "CoinName" : "5 Paisa (1984-1994)",
+        "CoinID" : "INR-L25-AD1987",
+        "CoinCond" : "Very Good",
+        "CoinCountryOfOrigin" : "India",
+        "CoinDate" : "1987",
+        "CoinQuantity" : "1",
+        "CoinDetails" : "Standard Circulation 5 Paisa Coin (1984-1994).",
+        "CoinDescription" : "It is a standard circulation coin for 5 Paisa denomination. It was minted during the period of (1984-1994). It is made up of Aluminium. It weights 1.03g with 22mm diameter and 1.5mm thickness. On heads, it features Ashoka Stambh at centre with 'India' written around it in English and Hindi. On tails side we see denomination written at centre with 'Paise' written around it in English and Hindi. It also have date of minting below the denomination."
+    },
+
+    {
+        "CoinNo" : 5,
+        "CoinName" : "10 Paisa (1983-1993)",
+        "CoinID" : "INR-L25-AE1987",
+        "CoinCond" : "Good",
+        "CoinCountryOfOrigin" : "India",
+        "CoinDate" : "1987",
+        "CoinQuantity" : "1",
+        "CoinDetails" : "Standard Circulation 10 Paisa Coin (1983-1993).",
+        "CoinDescription" : "It is a standard circulation coin for 10 Paisa denomination. It was minted during the period of (1983-1993). It is made up of Aluminium. It weights 1.76g with 23.03mm diameter and 1.94mm thickness. On heads, it features Ashoka Stambh at centre with 'India' written around it in English and Hindi. On tails side we see denomination written at centre with 'Paise' written below and above it in English and Hindi languages respectively. It also have date of minting at the very bottom of the coin."
+    },
+
+    {
+        "CoinNo" : 6,
+        "CoinName" : "10 Paisa (1988-1998)",
+        "CoinID" : "INR-L25-AF1988",
+        "CoinCond" : "Good",
+        "CoinCountryOfOrigin" : "India",
+        "CoinDate" : "1988",
+        "CoinQuantity" : "1",
+        "CoinDetails" : "Standard Circulation 10 Paisa Coin (1988-1998).",
+        "CoinDescription" : "It is a standard circulation coin for 10 Paisa denomination. It was minted during the period of (1988-1998). It is made up of Stainless-Steel. It weights 2g with 16mm diameter and 1.51mm thickness. On heads, it features Ashoka Stambh at centre with 'India' written around it in English and Hindi. On tails side we see denomination written at centre with 'Paise' written diagonally upwards in English and Hindi. We also have data of minting at the very bottom of the coin."
+    },
+
+    {
+        "CoinNo" : 7,
+        "CoinName" : "20 Paisa (1982-1997)",
+        "CoinID" : "INR-L25-AG1994",
+        "CoinCond" : "Average",
+        "CoinCountryOfOrigin" : "India",
+        "CoinDate" : "1994",
+        "CoinQuantity" : "1",
+        "CoinDetails" : "Standard Circulation 20 Paisa Coin (1982-1997).",
+        "CoinDescription" : "It is a standard circulation coin for 20 Paisa denomination. It was minted during the period of (1982-1997). It is made up of Aluminium. It weights 2.2g with 26mm diameter and 1.7mm thickness. On heads, it features Ashoka Stambh at centre with 'India' written around it in English and Hindi. On tails side we see denomination written at centre with 'Paise' written above and below it in Hindi and English respectively. It also have date of minting at the very bottom of the coin."
+    }
+
+]

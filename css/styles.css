@@ -1,0 +1,536 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #f6b319;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: rgb(8, 157, 20);
+  border-radius: 0;
+  border: 0;
+  padding: 15px;
+}
+
+#logo-img {
+  background: url('../images/restaurant-logo_large.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+
+span.PresentedBy{
+  margin: 20px 30px 20px 0;
+  padding: 30px;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* Wrbsite name */
+  font-family: 'Lora', serif;
+  color: #000000;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { 
+  color: #000;
+  text-shadow: 1px 1px 1px rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #f6b319;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#hours, #address {
+  line-height: 2;
+}
+#hours > span, #address > span {
+  font-size: 1.3em;
+}
+.TotalForeignCoin{
+  text-align: center;
+}
+#address p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+#testimonials {
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+/* END FOOTER */
+
+
+
+#c-tile, #specials-tile, #map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+#c-tile:hover, #specials-tile:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#c-tile {
+  background: url('../images/c-tile.jpg') no-repeat;
+  background-position: center;
+}
+#specials-tile {
+  background: url('../images/specials-tile.jpg') no-repeat;
+  background-position: center;
+}
+#c-tile span, #specials-tile span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+/* END HOME PAGE */
+
+/* c CATEGORIES PAGE */
+.category-tile { 
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto 30px;
+}
+.row-c {
+  width: 100%;
+  float: left;
+  margin: auto;
+}
+
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+.category-tile:hover {
+  box-shadow: 0 1px 20px 1px #f04704;
+}
+
+#c-categories-title + div {
+  margin-bottom: 50px;
+}
+/* END c CATEGORIES PAGE */
+
+/* SINGLE CATEGORY PAGE */
+.c-item-tile {
+  margin-bottom: 25px;
+}
+.c-item-tile hr{
+  width: 80%;
+}
+
+.c-item-tile .Coin-No {
+  font-size: 1.1em;
+  text-align: right;
+  margin-top: -15px;
+  margin-right: -15px;
+  text-align: center;
+}
+.c-item-tile .Coin-No span {
+  font-size: .6em;
+}
+
+.c-item-photo {
+  position: relative;
+  border: 2px solid #3F0C1F; 
+  overflow: hidden;
+  padding: 0;
+  margin-right: -15px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  max-width: 250px;
+}
+.c-item-photo div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  background-color: #557c3e;
+  text-align: center;
+}
+.c-item-description {
+  padding-right: 30px;
+  color: white;
+}
+
+.PresentedBy{
+  margin: 10px;
+}
+
+.coin-item-tile {
+  margin-bottom: 25px;
+}
+.coin-item-tile hr {
+  width: 80%;
+}
+.coin-item-tile .coin-item-price {
+  font-size: 1.1em;
+  text-align: right;
+  margin-top: -15px;
+  margin-right: -15px;
+}
+.coin-item-tile .coin-item-price span {
+  font-size: .6em;
+}
+h3.coin-item-title {
+  margin: 0 0 10px;
+  font-size: 40px;
+}
+.coin-item-details {
+  font-size: 25px;
+  font-style: italic;
+}
+.coin-item-description {
+  padding: 30px;
+  padding-left: 60px;
+  margin-top: 35px;
+  color: white;
+  background-color: #61122f;
+  width: 125%;
+  height: auto;  
+  border: #222;
+  border-radius: 20px;
+}
+
+
+h3.c-item-title {
+  margin: 0 0 10px;
+  font-size: 40px;
+}
+.c-item-details {
+  font-size: 25px;
+  font-style: italic;
+}
+
+.Next-Page{
+  text-align: center;
+  margin: 10px;
+  font-size: 1.2em;
+}
+
+.bottom-NextPage{
+  clear: left;
+  text-align: left;
+}
+
+.back-option{
+  text-align: left;
+  font-size: 1.2em;
+  margin: 20px;
+}
+/* END SINGLE CATEGORY PAGE */
+
+/* START OF INDIVIDUAL COIN PAGE */
+
+.c-item-photo img{
+  transition: 1s;
+}
+
+.c-item-photo img:hover{
+  transform: scale(1.15);
+}
+
+/* END OF INDIVIDUAL COIN PAGE */
+
+/* START OF INDIAN CATEGORY PAGE*/
+.Indian-category-tile { 
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 200px;
+  height: 220px;
+  margin: 0 auto 40px;
+}
+
+.Indian-category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+.Indian-category-tile:hover {
+  box-shadow: 0 1px 20px 1px #a80091;
+  transform: scale(1.10);
+  border-radius: 30px;
+}
+
+#country-name{
+font-size: 1.6em;
+text-align: center;
+}
+
+/* START OF INDIAN CATEGORY PAGE*/
+
+/* START OF ABOUT PAGE*/
+p.about-text{
+  font-size: 1.8em;
+  text-align: left;
+}
+
+h3.about-head{
+  font-size: 2.7em;
+  text-align: center;
+  
+}
+
+.MyPic { 
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 300px;
+  height: 400px;
+  margin: 0 auto 30px;
+}
+/* END OF ABOUT PAGE*/
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    height: 675px;
+  }
+
+/*Below code could be used to centre align the individual coin page but it distures the single category page*/
+/*
+  .c-item-tile {
+    width: 82%;
+  }
+*/
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('../images/restaurant-logo_medium.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/jumbotron_992.jpg') no-repeat;
+    height: 558px;
+  }
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/jumbotron_768.jpg') no-repeat;
+    height: 432px;
+  }
+  /* End Home Page */
+
+  .c-item-tile {
+    width: 90%;
+  }
+
+  .coin-item-description{
+    width: 110%;
+  }
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav c text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav c glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
+
+  /* Footer */
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
+  /* End Footer */
+
+  /* Home Page */
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
+  #c-tile, #specials-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+
+  #category-tile{
+    margin: 10px;
+  }
+  
+  .c-item-photo {
+    margin-right: auto;
+  }
+  .c-item-tile .Coin-No {
+    text-align: center;
+  }
+  .c-item-description {
+    text-align: center;
+  }
+
+  .coin-item-description{
+    width: 95%;
+    margin: auto;
+  }
+
+
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+  
+  /* Home page */
+  #c-tile, #specials-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+
+  .coin-item-description {
+    width: 100%;
+  }
+  
+}
+
+
+

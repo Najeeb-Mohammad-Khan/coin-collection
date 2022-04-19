@@ -1,0 +1,62 @@
+[
+    {
+        "CoinNo" : 1,
+        "CoinName" : "1/4 United State Dollar ",
+        "CoinID" : "NAM-USA-AA2008",
+        "CoinCond" : "Very Good",
+        "CoinCountryOfOrigin" : "United States Of America",
+        "CoinDate" : "2008",
+        "CoinQuantity" : "1",
+        "CoinDetails" : "It is a commemorative coin for the US state of Arizona.",
+        "CoinDescription" : "It is a circulation coin used in United States Of America. 1 US Dollar equals 100 US Cents. It is made up of Copper-Nickel composition material. It weights 5.67g with 24.26mm diameter and 1.75mm thickness. It is the third commemorative quater dollar coin. I has image of Grand Canyon with a Saguaro cactus in the foreground."
+    },
+
+    {
+        "CoinNo" : 2,
+        "CoinName" : "5 United States Cents",
+        "CoinID" : "NAM-USA-AB1972",
+        "CoinCond" : "Good",
+        "CoinCountryOfOrigin" : "United States Of America",
+        "CoinDate" : "1972",
+        "CoinQuantity" : "1",
+        "CoinDetails" : "It is a subdivision of US Dollar.",
+        "CoinDescription" : "It is a circulation coin used in United States Of America. 1 US Dollar equals 100 US Cents. It is made up of Copper-Nickel composition material. It weights 5g with 21.21mm diameter and 1.95mm thickness. This coin also known as the Jefferson Nickel has been the longest running series for the five cent denomination.It features left-facing portrait of the former US President Thomas Jefferson and an image of Jefferson's historic home known as Monticello."
+    },
+
+    {
+        "CoinNo" : 3,
+        "CoinName" : "1 United State Dime",
+        "CoinID" : "NAM-USA-AC1989",
+        "CoinCond" : "Good",
+        "CoinCountryOfOrigin" : "United States Of America",
+        "CoinDate" : "1989",
+        "CoinQuantity" : "1",
+        "CoinDetails" : "It is a subdivision of US Dollar.",
+        "CoinDescription" : "It is a circulation coin used in United States Of America. 1 US Dollar equals 10 US Dimes. It is made up of Copper-Nickel composition material. It weights 2.3g with 17.91mm diameter and 1.35mm thickness. It features left-facing portrait of the former US President Franklin D.Roosevelt and on the tail side displays a torch with an olive branch on the left and an oak branch on the right. The torch signifies liberty, the olive branch peace, and the oak branch represents strength and independence."
+    },
+
+    {
+        "CoinNo" : 4,
+        "CoinName" : "1 United State Cent",
+        "CoinID" : "NAM-USA-AD2004",
+        "CoinCond" : "Average",
+        "CoinCountryOfOrigin" : "United States Of America",
+        "CoinDate" : "2004",
+        "CoinQuantity" : "1",
+        "CoinDetails" : "It is a subdivision of US Dollar.",
+        "CoinDescription" : "It is a circulation coin used in United States Of America. 1 US Dollar equals 100 US Cents. It is made up of Copper Plated Zinc. It weights 2.5g with 19.05mm diameter and 1.5mm thickness. It features right-facing portrait of the former US President Abraham Lincoln and on the tail side displays Lincoln Memorial which is a US national memorial built in his honor."
+    },
+
+    {
+        "CoinNo" : 5,
+        "CoinName" : "25 Canadian Cents",
+        "CoinID" : "NAM-CAN-AA1981",
+        "CoinCond" : "Very Good",
+        "CoinCountryOfOrigin" : "Canada",
+        "CoinDate" : "1981",
+        "CoinQuantity" : "1",
+        "CoinDetails" : "It is a subdivision of Canadian Dollar.",
+        "CoinDescription" : "It is a circulation coin used in Canada. 1 Canadian Dollar equals 100 Canadian Cents. It is made up of Nickel Plated Steel. It weights 5.83g with 23.88mm diameter and 1.58mm thickness. It features right-facing the portrait of Queen Elizabeth II of United Kingdom and on the tail side displays the image of caribou which is a reindeer found in North America."
+    }
+
+]

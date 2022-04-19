@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> COIN COLLECTION EXHIBITION </title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+
+          <div class="navbar-brand">
+            <a href="../index.html"><h1> COIN COLLECTION EXHIBITION </h1></a>
+            <p>
+              <img src="../images/star-k-logo.png" alt="Kosher certification">
+              <span class="PresentedBy"> Presented By : Najeeb Mohammad Khan </span>
+            </p>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li class="active">
+              <a href="../index.html">
+                <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> Start</a>
+            </li>
+            <li>
+              <a href="../about.html">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+  
+
+
+
+  <!-- Page Content Start From Here -->
+  <div id="main-content" class="container">
+    <h2 id="section-title" class="text-center">N/A</h2>
+    <div  id="country-name" class="text-center">N/A</div>
+
+    <div class="back-option">
+      <a id="back-path" href = "">  <span class="glyphicon glyphicon-backward"></span> Back
+      </a>
+    </div>
+
+    <section class="row">
+      <div class="c-item-tile col-md-10">
+        
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="c-item-photo">
+              <div>HEADS</div>
+<!--              <a href="../images/c/B/HEADS_SNP_COIN2_L.jpg"><img class="img-responsive" width="250" height="150" src="../images/c/B/HEADS_SNP_COIN2.jpg" alt="Lunch"></a>   -->
+              <a id="img-head-L" href="" ><img class="img-responsive" width="250" height="150"  id="img-head" src="" alt="Heads"></a>
+            </div>
+<!--            <div class="c-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div>   -->
+          </div>
+
+          <div class="col-sm-6">
+            <div class="c-item-photo">
+              <div>TAILS</div>
+              <a id="img-tail-L" href=""><img class="img-responsive" width="250" height="150" id="img-tail" src="" alt="Tails"></a>
+            </div>
+<!--            <div class="c-item-price">$10.95<span> (pint)</span> $14.95 <span>(quart)</span></div>   -->
+          </div>
+
+          <div class="coin-item-description col-sm-7">
+            <u><h3 class="coin-item-title" id="CoinName">N/A</h3></u>
+            <p class="coin-item-details" id="CoinID">N/A</p>
+            <p class="coin-item-details" id="CoinCountryOfOrigin">N/A</p>
+            <p class="coin-item-details" id="CoinCond">N/A</p>
+            <p class="coin-item-details" id="CoinDate">N/A</p>
+            <p class="coin-item-details" id="CoinQuantity">N/A</p>
+            <p class="coin-item-details" id="CoinDescription">N/A</p>
+          </div>
+        </div>
+        
+      
+      </div>
+
+      <!-- Add after every 2nd c-item-tile -->
+      <div class="clearfix visible-lg-block visible-md-block"></div>
+
+    </section>
+
+  </div><!-- End of #main-content -->
+
+
+  <script type="text/javascript">
+
+        var RxData
+        var countryCode = ''
+        var currencyAmount = ''
+        var dataPath = '../data/'
+        var picturePath = '../images/'
+        var backPath = ''
+
+        const init =function(e){
+            var data = localStorage.getItem('CoinID');
+            return data;
+        };
+
+        document.addEventListener('DOMContentLoaded',function()
+          {
+            RxData = init();
+            console.log(RxData)
+
+
+            for(var k = 0;k<3;k++)
+            {
+              countryCode = countryCode + RxData[k]
+            }
+
+            for(var k = 4;k<7;k++)
+            {
+              currencyAmount = currencyAmount + RxData[k]
+            }
+
+            if(countryCode == "INR")
+            {
+              dataPath = dataPath + "Indian/"
+              picturePath = picturePath + "Indian/"
+              backPath = "Indian/"
+            }
+            
+            else
+            {
+              dataPath = dataPath + "Foreign/"
+              picturePath = picturePath + "Foreign/"
+              backPath = "Foreign/"
+            }
+
+            if(countryCode == "INR")
+            {
+              dataPath = dataPath + currencyAmount +"S_Coin.json"
+              picturePath = picturePath + countryCode+"-"+currencyAmount +"S/"+RxData
+//              dataPath = "../data/Indian/20RS_Coin.json"
+            }
+            else
+            {
+                dataPath = dataPath + countryCode + "_Coin.json"
+                picturePath = picturePath + countryCode+"/"+RxData
+            }
+
+            console.log(dataPath)
+            console.log(picturePath)
+
+//   This section is for dynamic address allocation for images of coins
+            var elem_addr_headL = document.getElementById('img-head-L'),
+            addr_headL = picturePath;   //used it as a string, just for test cases
+            elem_addr_headL.href = addr_headL + "_HL.jpg";
+
+            var elem_addr_tailL = document.getElementById('img-tail-L'),
+            addr_tailL = picturePath;   //used it as a string, just for test cases
+            elem_addr_tailL.href = addr_tailL + "_TL.jpg";
+
+            var elem_addr_head = document.getElementById('img-head'),
+            addr_head = picturePath;   //used it as a string, just for test cases
+            elem_addr_head.src = addr_head + "_HL.jpg";
+            console.log(elem_addr_head.src);
+
+            var elem_addr_tail = document.getElementById('img-tail'),
+            addr_tail = picturePath;   //used it as a string, just for test cases
+            elem_addr_tail.src = addr_tail + "_TL.jpg";
+
+            if(countryCode == "INR")
+            {
+              if(currencyAmount == "01R")
+              {
+                backPath = backPath + "1Rupee/1Rupee-single-category.html"
+              }
+
+              else if(currencyAmount == "02R")
+              {
+                backPath = backPath + "2Rupee/2Rupee-single-category.html"
+              }
+
+              else if(currencyAmount == "05R")
+              {
+                backPath = backPath + "5Rupee/5Rupee-single-category.html"
+              }
+
+              else if(currencyAmount == "10R")
+              {
+                backPath = backPath + "10Rupee/10Rupee-single-category.html"
+              }
+
+              else if(currencyAmount == "20R")
+              {
+                backPath = backPath + "20Rupee/20Rupee-single-category.html"
+              }
+
+              else
+              {
+                backPath = backPath + "Less-than-1Rupee/"
+                
+                if(currencyAmount == "50P")
+                {
+                  backPath = backPath + "50Paise-single-category.html"
+                }
+
+                else if(currencyAmount == "25P")
+                {
+                  backPath = backPath + "25Paise-single-category.html"
+                }
+
+                else
+                {
+                  backPath = backPath + "LessThan25Paise-single-category.html"
+                }
+
+              }
+            }
+            else
+            {
+              if(countryCode == "AFR")
+              {
+                backPath = backPath + "Africa/Africa-single-category.html"
+              }
+
+              else if(countryCode == "MEA")
+              {
+                backPath = backPath + "MiddleEast/MiddleEast-single-category.html"
+              }
+
+              else if(countryCode == "NAM")
+              {
+                backPath = backPath + "NorthAmerica/NorthAmerica-single-category.html"
+                
+              }
+
+              else if(countryCode == "SEA")
+              {
+                backPath = backPath + "SouthEastAsia/SouthEastAsia-single-category.html"                
+              }
+            }
+
+            console.log(backPath)
+            var elem_addr_backpath = document.getElementById('back-path'),
+            addr_backpath = backPath;   //used it as a string, just for test cases
+            elem_addr_backpath.href = addr_backpath
+
+//            console.log(elem.href);
+//   End of section for dynamic address allocation for images of coins
+
+            fetch(dataPath)
+            .then(response => response.json())
+            .then(data => 
+              {
+                console.log(data.length)
+
+                for(var i = 0;i < data.length; i++)
+                    {
+                        if(data[i].CoinID == RxData)
+                        {
+                          document.querySelector("#CoinName").innerText = data[i].CoinName
+                          document.querySelector("#CoinID").innerText = "Coin ID : " + data[i].CoinID
+                          document.querySelector("#CoinCountryOfOrigin").innerText = "Country Of Origin : " + data[i].CoinCountryOfOrigin
+                          document.querySelector("#CoinCond").innerText = "Condition : " + data[i].CoinCond
+                          document.querySelector("#CoinDate").innerText = "Minting Data : " + data[i].CoinDate
+                          document.querySelector("#CoinQuantity").innerText = "Coin Quantity : " + data[i].CoinQuantity
+                          document.querySelector("#country-name").innerText = data[i].CoinCountryOfOrigin
+
+                          if(data[i].CoinCountryOfOrigin == "India")
+                          {
+                            document.querySelector("#section-title").innerText = "SECTION : INDIAN COINS"
+                          }
+                          else
+                          {
+                            document.querySelector("#section-title").innerText = "SECTION : FOREIGN COINS"
+
+                          }
+
+                          document.querySelector("#CoinDescription").innerText = "Description : " + data[i].CoinDescription
+
+
+                          document.querySelector("#TotalForeignCoin").innerText = "Total Foreign Coins  :  " + data.length
+                          document.querySelector("#TotalIndianCoin").innerText =  "Total Indian Coins   :  " + data.length
+                          document.querySelector("#TotalNotes").innerText =       "Total Notes          :  "   + data.length
+                        }
+                    }
+              })
+
+
+
+          }
+        );
+
+
+
+
+</script>
+
+<!-- Page Content End From Here -->
+<footer class="panel-footer">
+  <div class="container">
+    <div class="row">
+      <section id="hours" class="col-sm-4">
+        <span class="glyphicon glyphicon-info-sign"></span> Information
+              <div id = "TotalForeignCoin" >Total Foreign Coin : 16</div>
+        <p id = "TotalIndianCoin">Total Indian Coin : 54</p>
+        <hr class="visible-xs">
+      </section>
+      <section id="address" class="col-sm-4">
+        <span>This Website Was Built After Attending :</span><br>
+        HTML, CSS & JavaScript Course<br>
+        Offered By John Hopkins University
+        <p>Provided Via Coursera Online Training Platform</p>
+        <hr class="visible-xs">
+      </section>
+      <section id="Credits" class="col-sm-4">
+        <p>Presented By Najeeb Mohammad Khan</p>
+        <p>Class         : ECE-1</p>
+        <p>Enrollment No : 03115002819</p>
+        <p>Class Roll No : 28</p>
+        <p>Submitted as Winter Training Project, Feb 2022</p>
+      </section>
+    </div>
+    <div class="text-center">Made With 
+    <span class="glyphicon glyphicon-heart"></span> By Najeeb
+    </div>
+  </div>
+</footer>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="../js/jquery-2.1.4.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/script.js"></script>
+</body>
+</html>

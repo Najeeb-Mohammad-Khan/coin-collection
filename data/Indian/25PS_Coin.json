@@ -1,0 +1,49 @@
+[
+    {
+        "CoinNo" : 1,
+        "CoinName" : "1/4 Rupee - George VI",
+        "CoinID" : "INR-25P-AA1947",
+        "CoinCond" : "Average",
+        "CoinCountryOfOrigin" : "India",
+        "CoinDate" : "1947",
+        "CoinQuantity" : "1",
+        "CoinDetails" : "Standard Circulation Coin (1946-1947).",
+        "CoinDescription" : "It is a standard circulation coin for quater rupee denomination. It was minted during the period of (1946-1947). This coin was in use during the transition period from British India to Republic Of India. It was one of the last series of coins printed by British India. It is made up of Nickel metal. It weights 2.9g with 19mm diameter and 1.2mm thickness. On heads, it features Crowned head of George VI facing left. On tails side we see Indian tiger (Panthera tigris) walking left with India written below it. We can also see the denomination written above the tiger. George VI was King of the United Kingdom and the Dominions of the British Commonwealth from 11 December 1936 until his death in 1952. He was concurrently the last Emperor of India until August 1947, when the British Raj was dissolved."
+    },
+
+    {
+        "CoinNo" : 2,
+        "CoinName" : "1/4 Rupee (Pre-decimalization 25 Paise)",
+        "CoinID" : "INR-25P-AB1954",
+        "CoinCond" : "Good",
+        "CoinCountryOfOrigin" : "India",
+        "CoinDate" : "1954",
+        "CoinQuantity" : "1",
+        "CoinDetails" : "Standard Circulation Coin (1950-1956).",
+        "CoinDescription" : "It is a standard circulation coin for quater rupee denomination. It was minted during the period of (1950-1956). This coin was in use one of the first coins minted by Republic Of India. It was part of pre-decimalization 25 Paise coins minted by Gov. Of India. It is made up of Nickel metal. It weights 2.73g with 19mm diameter and 1.53mm thickness. On heads, it features Ashoka Stambh with Government Of India written around it. The British King's portrait was replaced by the Lion Capital of the Ashoka Pillar. It symbolised the shift of power from British Crown to Gov. of India. On tails side we see a Grain sprigs flank around the denomination and 'Chaar Aana' (Four Annas) written in Devnagari above it. A corn sheaf replacing the Tiger symbolised a shift in focus from imperialism to progress and prosperity. 1 Anna was equal to 1/16 Indian Rupee"
+    },
+
+    {
+        "CoinNo" : 3,
+        "CoinName" : "25 Paise (1972-1990)",
+        "CoinID" : "INR-25P-AC1976",
+        "CoinCond" : "Good",
+        "CoinCountryOfOrigin" : "India",
+        "CoinDate" : "1976",
+        "CoinQuantity" : "1",
+        "CoinDetails" : "Standard Circulation 25 Paise Coin (1972-1990).",
+        "CoinDescription" : "It is a standard circulation coin for 25 Paise denomination. It was minted during the period of (1972-1990). It is made up of Copper-Nickel composition material. It weights 2.5g with 19mm diameter and 1.36mm thickness. On heads, it features Ashoka Stambh with India written around it in English and Hindi. On tails side we see denomination written at the centre with year of minting at bottom and 'Paise' at top of the coin."
+    },
+
+    {
+        "CoinNo" : 4,
+        "CoinName" : "25 Paise (1988-2002)",
+        "CoinID" : "INR-25P-AD1998",
+        "CoinCond" : "Good",
+        "CoinCountryOfOrigin" : "India",
+        "CoinDate" : "1998",
+        "CoinQuantity" : "1",
+        "CoinDetails" : "Standard Circulation 25 Paise Coin (1988-2002).",
+        "CoinDescription" : "It is a standard circulation coin for 25 Paise denomination. It was minted during the period of (1988-2002). It is made up of Stainless-Steel. It weights 2.83g with 19mm diameter and 1.55mm thickness. On heads, it features Ashoka Stambh at top. Also the denomination is written at the centre with 'India Paise' written around it in English and Hindi. On tails side we see image of Indian Rhinoceros facing left with the date of minting above."
+    }
+]

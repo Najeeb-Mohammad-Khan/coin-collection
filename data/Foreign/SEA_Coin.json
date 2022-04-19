@@ -1,0 +1,62 @@
+[
+    {
+        "CoinNo" : 1,
+        "CoinName" : "50 Singapore Cents",
+        "CoinID" : "SEA-SNP-AA2005",
+        "CoinCond" : "Good",
+        "CoinCountryOfOrigin" : "Singapore",
+        "CoinDate" : "2005",
+        "CoinQuantity" : "1",
+        "CoinDetails" : "It is a subdivision of Singapore Dollar.",
+        "CoinDescription" : "It is a circulation coin used in Singapore. 1 Singapore Dollar equals 100 Singapore Cents. It is made up of Copper-Nickel composition material. It weights 7.29g with 24.65mm diameter and 2.06mm thickness. It features the Yellow Allamanda flower and on the tail side displays the image of The Coat of arms of Singapore which is the heraldic symbol representing the Southeast Asian island nation of Singapore."
+    },
+
+    {
+        "CoinNo" : 2,
+        "CoinName" : "20 Singapore Cents",
+        "CoinID" : "SEA-SNP-AB1991",
+        "CoinCond" : "Good",
+        "CoinCountryOfOrigin" : "Singapore",
+        "CoinDate" : "1991",
+        "CoinQuantity" : "1",
+        "CoinDetails" : "It is a subdivision of Singapore Dollar.",
+        "CoinDescription" : "It is a circulation coin used in Singapore. 1 Singapore Dollar equals 100 Singapore Cents. It is made up of Copper-Nickel composition material. It weights 4.5g with 21.36mm diameter and 1.72mm thickness. It features the powder puff (Calliandra surinamensis) plant and on the tail side displays the image of The Coat of arms of Singapore which is the heraldic symbol representing the Southeast Asian island nation of Singapore."
+    },
+
+    {
+        "CoinNo" : 3,
+        "CoinName" : "20 Malaysian Sens",
+        "CoinID" : "SEA-MAL-AA1993",
+        "CoinCond" : "Good",
+        "CoinCountryOfOrigin" : "Malaysia",
+        "CoinDate" : "1993",
+        "CoinQuantity" : "1",
+        "CoinDetails" : "It is a subdivision of Malaysian Ringgit.",
+        "CoinDescription" : "It is a circulation coin used in Malaysia. 1 Malaysian Ringgit equals 100 Malaysian Sen. It is made up of Copper-Nickel composition material. It weights 5.66g with 23.59mm diameter and 1.75mm thickness. It features the Hibiscus flower blossom which is the national flower of Malaysia and on the tail side displays the image of a Tepak Sirih & Kapur Metal Container to store Betel leaves & Nuts and Lime. A Kacip is kept by the side of the container."
+    },
+
+    {
+        "CoinNo" : 4,
+        "CoinName" : "1000 Indonesian Rupiah",
+        "CoinID" : "SEA-IDO-AA2010",
+        "CoinCond" : "Very Good",
+        "CoinCountryOfOrigin" : "Indonesia",
+        "CoinDate" : "2010",
+        "CoinQuantity" : "1",
+        "CoinDetails" : "It is a currency used in Indonesia.",
+        "CoinDescription" : "It is the highest value coin in circulation used in Indonesia. It is the only indonesian coin made up of Nickel plated Steel. Rest all coins are made up of Aluminium. It weights 4.5g with 24.2mm diameter and 1.6mm thickness. On head side it features angklung musical instrument and tail side displays the image of Garuda Pancasila which is the Coat of Arms of the Republic of Indonesia."
+    },
+
+    {
+        "CoinNo" : 5,
+        "CoinName" : "50 South Korean Won",
+        "CoinID" : "SEA-SKO-AA1993",
+        "CoinCond" : "Good",
+        "CoinCountryOfOrigin" : "South Korea",
+        "CoinDate" : "1993",
+        "CoinQuantity" : "1",
+        "CoinDetails" : "It is a commemorative coin.",
+        "CoinDescription" : "It is a circulating commemorative coin used in South Korea. It is made up of Nickel-Brass composition material. It weights 4.16g with 21.6mm diameter and 1.52mm thickness. On head side it features rice plant & the value of coin is written in Hangul(South Korean Language) below it. On the tail side shows the denomination in numerals in the center with the issuer name in Hangul below and the date above it."
+    }
+
+]

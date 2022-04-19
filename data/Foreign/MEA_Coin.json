@@ -1,0 +1,62 @@
+[
+    {
+        "CoinNo" : 1,
+        "CoinName" : "100 Kuwaiti Fils",
+        "CoinID" : "MEA-KUW-AA1980",
+        "CoinCond" : "Good",
+        "CoinCountryOfOrigin" : "Kuwait",
+        "CoinDate" : "1980",
+        "CoinQuantity" : "1",
+        "CoinDetails" : "It is a subdivision of Kuwaiti Dinar used in Kuwait.",
+        "CoinDescription" : "It is a circulation coin used in Kuwait present in Middle East. 1 Kuwaiti Dinar equals 1000 Kuwaiti Fils. It is made up of Copper-Nickel composition material. It weights 6.5g with 26mm diameter and 1.5mm thickness."
+    },
+
+    {
+        "CoinNo" : 2,
+        "CoinName" : "25 Saudi Halalas",
+        "CoinID" : "MEA-SAR-AA1980",
+        "CoinCond" : "Good",
+        "CoinCountryOfOrigin" : "Saudi Arabia",
+        "CoinDate" : "1980",
+        "CoinQuantity" : "1",
+        "CoinDetails" : "It is a subdivision of Saudi Riyal used in Saudi Arabia.",
+        "CoinDescription" : "It is a circulation coin used in Saudi Arabia present in Middle East. 1 Saudi Riyal equals 100 Saudi Halalas. It is made up of Copper-Nickel composition material. It weights 5g with 23mm diameter and 1.6mm thickness"
+    },
+
+    {
+        "CoinNo" : 3,
+        "CoinName" : "50 Saudi Halalas",
+        "CoinID" : "MEA-SAR-AB2008",
+        "CoinCond" : "Good",
+        "CoinCountryOfOrigin" : "Saudi Arabia",
+        "CoinDate" : "2008",
+        "CoinQuantity" : "1",
+        "CoinDetails" : "It is a subdivision of Saudi Riyal used in Saudi Arabia.",
+        "CoinDescription" : "It is a circulation coin used in Saudi Arabia present in Middle East. 1 Saudi Riyal equals 100 Saudi Halalas. It is made up of Copper-Nickel composition material. It weights 6.5g with 26mm diameter and 1.6mm thickness"
+    },
+
+    {
+        "CoinNo" : 4,
+        "CoinName" : "1 Dirham (Small Type)",
+        "CoinID" : "MEA-UAE-AA2007",
+        "CoinCond" : "Good",
+        "CoinCountryOfOrigin" : "United Arab Emirates",
+        "CoinDate" : "2007",
+        "CoinQuantity" : "1",
+        "CoinDetails" : "Dirham is a currency used in United Arab Emirates.",
+        "CoinDescription" : "It is a circulation coin used in United Arab Emirates present in Middle East. 1 UAE Dirham equals 100 UAE Fils. It is made up of Copper-Nickel composition material. It weights 6.4g with 23.8mm diameter and 1.9mm thickness. This coin is small Dirham coin, one of the two(large & small) 1 Dirham coins present in circulation. "
+    },
+
+    {
+        "CoinNo" : 5,
+        "CoinName" : "1 Dirham (Large Type)",
+        "CoinID" : "MEA-UAE-AB1989",
+        "CoinCond" : "Good",
+        "CoinCountryOfOrigin" : "United Arab Emirates",
+        "CoinDate" : "1989",
+        "CoinQuantity" : "1",
+        "CoinDetails" : "Dirham is a currency used in United Arab Emirates.",
+        "CoinDescription" : "It is a circulation coin used in United Arab Emirates present in Middle East. 1 UAE Dirham equals 100 UAE Fils. It is made up of Copper-Nickel composition material. It weights 11.3g with 28.5mm diameter and 2.3mm thickness. This coin is large Dirham coin, one of the two(large & small) 1 Dirham coins present in circulation. "
+    }
+
+]
